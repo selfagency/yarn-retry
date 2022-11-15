@@ -1,7 +1,7 @@
 {
   "name": "@selfagency/yarn-retry",
   "description": "retry yarn when it fails",
-  "version": "1.2.2",
+  "version": "1.0.0",
   "repository": {
     "url": "git://github.com/selfagency/yarn-retry.git"
   },
