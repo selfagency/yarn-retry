@@ -1,14 +1,14 @@
 {
-  "name": "yarn-retry",
+  "name": "@selfagency/yarn-retry",
   "description": "retry yarn when it fails",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "repository": {
-    "url": "git://github.com/artemv/yarn-retry.git"
+    "url": "git://github.com/selfagency/yarn-retry.git"
   },
   "author": {
-    "name": "Artem Vasiliev",
-    "email": "artem.job@gmail.com",
-    "url": "github.com/artemv"
+    "name": "Daniel Sieradski",
+    "email": "daniel@self.agency",
+    "url": "github.com/selfagency"
   },
   "bin": {
     "yarn-retry": "./bin/yarn-retry"

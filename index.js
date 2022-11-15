@@ -10,7 +10,7 @@ module.exports = function (command, args, options, callback) {
     process.env.npm_config_color = 0;
 
     var attempt = exec(runCmd, function (err, stdout, stderr) {
-      matchers = [/unexpected end of file/ig, /the registry may be down/ig, /Request failed .?"404/ig];
+      matchers = [/the file appears to be corrupt/ig, /unexpected end of file/ig, /the registry may be down/ig, /Request failed .?"404/ig];
       var match = matchers.some(function (matcher) {
           return stdout.match(matcher) || stderr.match(matcher);
       });
